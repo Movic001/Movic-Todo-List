@@ -1,0 +1,47 @@
+body{
+    font-family: arial;
+    background-color: rgb(38, 52, 90);
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    margin-top: 180px;
+    border-radius: 20px;
+    height: auto;
+}
+.container .btn{
+    margin: 10px;
+    padding: 10px;
+}
+.container input{
+    padding: 10px;
+    margin: 10px;
+}
+    
+.todoList{
+    list-style-type: none;
+    display: block;
+    margin: 0;
+}
+
+.todoList .todoItem{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 0;
+}
+
+.todoList .todoItem .btnClass{
+    padding: 6px;
+    margin: 10px;
+}
